@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		ED5772D3280784A60028CF43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5772D2280784A60028CF43 /* AppDelegate.swift */; };
 		ED5772D5280784A60028CF43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5772D4280784A60028CF43 /* SceneDelegate.swift */; };
-		ED5772D7280784A60028CF43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5772D6280784A60028CF43 /* ViewController.swift */; };
 		ED5772DA280784A60028CF43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5772D8280784A60028CF43 /* Main.storyboard */; };
 		ED5772DC280784A70028CF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5772DB280784A70028CF43 /* Assets.xcassets */; };
 		ED5772DF280784A70028CF43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5772DD280784A70028CF43 /* LaunchScreen.storyboard */; };
+		ED5772E7280786370028CF43 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5772E6280786370028CF43 /* LoginViewController.swift */; };
+		ED5772E9280786470028CF43 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5772E8280786470028CF43 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED5772CF280784A60028CF43 /* skillCon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skillCon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5772D2280784A60028CF43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED5772D4280784A60028CF43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED5772D6280784A60028CF43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED5772D9280784A60028CF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED5772DB280784A70028CF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5772DE280784A70028CF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5772E0280784A70028CF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5772E6280786370028CF43 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ED5772E8280786470028CF43 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				ED5772D2280784A60028CF43 /* AppDelegate.swift */,
 				ED5772D4280784A60028CF43 /* SceneDelegate.swift */,
-				ED5772D6280784A60028CF43 /* ViewController.swift */,
 				ED5772D8280784A60028CF43 /* Main.storyboard */,
+				ED5772E6280786370028CF43 /* LoginViewController.swift */,
+				ED5772E8280786470028CF43 /* SignUpViewController.swift */,
 				ED5772DB280784A70028CF43 /* Assets.xcassets */,
 				ED5772DD280784A70028CF43 /* LaunchScreen.storyboard */,
 				ED5772E0280784A70028CF43 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED5772D7280784A60028CF43 /* ViewController.swift in Sources */,
+				ED5772E7280786370028CF43 /* LoginViewController.swift in Sources */,
 				ED5772D3280784A60028CF43 /* AppDelegate.swift in Sources */,
 				ED5772D5280784A60028CF43 /* SceneDelegate.swift in Sources */,
+				ED5772E9280786470028CF43 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
